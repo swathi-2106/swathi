@@ -112,8 +112,10 @@ window.addEventListener("load", () => {
     typeRole();
 });
 
-contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    formMessage.textContent = "Message ready. Connect this form to a backend or email service when you are ready.";
-    contactForm.reset();
-});
+if (contactForm) {
+    contactForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        formMessage.textContent = "Message ready. Connect this form to a backend or email service when you are ready.";
+        contactForm.reset();
+    });
+}
