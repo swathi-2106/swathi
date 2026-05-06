@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Swathi - Cybersecurity Analyst and Backend Developer portfolio focused on secure APIs, Spring Boot systems, and VAPT.">
+    <title>Swathi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-loader" aria-hidden="true">
+        <span></span>
+    </div>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a class="logo" href="#home" aria-label="Swathi home"
+                <span>Swathi</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-grid container">
+                <div class="hero-content reveal">
+                   <p class="eyebrow">Backend. Security. Continuous learning.</p>
+                    <h1>
+                        Hi, I'm <span class="name-glow">Swathi</span>.
+                        <span class="hero-role">Focused on <span id="typed-role"></span><span class="typing-cursor">|</span></span>
+                    </h1>
+                    <p class="hero-text">
+                       I develop backend applications with Spring Boot and REST APIs, and I make sure they are secure by checking for vulnerabilities and building reliable systems.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="images/SWATHI_S_RESUME.pdf" download>Download Resume</a>
+                        <a class="btn btn-secondary" href="#projects">View Projects</a>
+                    </div>
+                </div>
+
+                <aside class="hero-panel reveal" aria-label="Security operations profile">
+                    <div class="terminal-card">
+                        <div class="terminal-bar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="terminal-lines">
+                            <p><span>$</span> scan --target backend-api</p>
+                            <p class="terminal-success">status: hardened</p>
+                            <p><span>$</span> deploy --profile secure</p>
+                            <p class="terminal-success">build: stable</p>
+                        </div>
+                    </div>
+                    <div class="profile-orbit">
+                        <img src="images/image.png" alt="Swathi profile portrait">
+                        <span class="orbit-ring"></span>
+                    </div>
+                    <p class="panel-note">Computer Science student exploring cybersecurity and backend development, building APIs and learning system design, with AWS Certified Cloud Practitioner certification.</p>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container two-column">
+                <div class="reveal">
+                    <p class="section-label">About Me</p>
+                    <h2>Focused on learning by building and solving real problems.</h2>
+                </div>
+                <div class="section-copy reveal">
+                    <p>
+    I am a Computer Science student interested in backend development and cybersecurity.
+    I enjoy building applications using Java and Spring Boot and learning how systems work behind the scenes.
+</p>
+
+<p>
+    Along with development, I practice basic security testing to understand how vulnerabilities occur
+    and how to fix them. I like working on projects that help me improve both my coding and problem-solving skills.
+</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted-section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Skills</p>
+                    <h2>Things I’m learning and building with</h2>
+                </div>
+                <div class="skills-grid">
+                    <article class="glass-card reveal">
+                        <span class="card-icon">01</span>
+                        <h3>Cybersecurity</h3>
+                        <ul class="skill-list">
+                            <li>VAPT methodology</li>
+                            <li>Nmap reconnaissance</li>
+                            <li>Burp Suite testing</li>
+                            <li>OWASP Top 10 awareness</li>
+                            <li>Web app vulnerability checks</li>
+                        </ul>
+                    </article>
+                    <article class="glass-card reveal">
+                        <span class="card-icon">02</span>
+                        <h3>Backend</h3>
+                        <ul class="skill-list">
+                            <li>Java programming</li>
+                            <li>Spring Boot services</li>
+                            <li>REST API development</li>
+                            <li>MySQL database design</li>
+                            <li>Authentication flows</li>
+                        </ul>
+                    </article>
+                    <article class="glass-card reveal">
+                        <span class="card-icon">03</span>
+                        <h3>Tools</h3>
+                        <ul class="skill-list">
+                            <li>Git and GitHub</li>
+                            <li>Linux fundamentals</li>
+                            <li>Postman API testing</li>
+                            <li>VS Code workflows</li>
+                            <li>Chrome DevTools</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Projects</p>
+                    <h2>Selected project work</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <img src="images/work1.png" alt="PreScan dashboard preview">
+                        <div class="project-content">
+                            <h3>PreScan – Web Security Scanner</h3>
+                            <p>Built a full-stack cybersecurity tool using React, Spring Boot, and a Chrome Extension to proactively detect web vulnerabilities before deployment. Implemented severity-based risk classification and automated JSON report generation. Designed an interactive dashboard to visualize scan results and security insights for developers.</p>
+                            <div class="tech-stack">
+    <span>React</span>
+    <span>Spring Boot</span>
+    <span>Chrome Extension</span>
+    <span>REST APIs</span>
+</div>
+                            <a class="text-link" href="https://github.com/swathi-2106/PRESCAN" aria-label="View PreScan project">View Project</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <img src="images/work2.png" alt="Vulnerability assessment workspace preview">
+                        <div class="project-content">
+                            <h3>GuardianAI – AI-Powered Intrusion Detection System</h3>
+                            <p>Developed a host-based intrusion detection system using React, Spring Boot, and Python to monitor and analyze Windows Event Logs in real time. Implemented log ingestion, anomaly detection (combining rule-based and AI techniques), and alert generation with severity classification. Created interactive dashboards for logs, alerts, attack timelines, and system performance monitoring.</p>
+                           <div class="tech-stack">
+    <span>React</span>
+    <span>Spring Boot</span>
+    <span>Python</span>
+    <span>Windows Event Logs</span>
+</div>
+                            <a class="text-link" href="https://github.com/swathi-2106/guardian-ai" aria-label="View GuardianAI project">View Project</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <img src="images/work3.png" alt="Backend booking system preview">
+                        <div class="project-content">
+                            <h3>Blockchain-Based Student Management System (In Progress)</h3>
+                            <p>Designing a secure student management platform using Spring Boot and blockchain technology to ensure data integrity and transparency. The system focuses on tamper-proof academic records, decentralized verification, and secure data access.</p>
+                            <div class="tech-stack">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>Blockchain</span>
+    <span>REST APIs</span>
+</div>
+                            <a class="text-link" href="https://github.com/swathi-2106/blockchain-student-management" aria-label="View Blockchain-Based Student Management System project">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted-section" id="services">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Services</p>
+                    <h2>Focused ways I can help</h2>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <span class="service-icon">DEV</span>
+                        <h3>Backend Development</h3>
+                        <p>Build maintainable Java and Spring Boot backend systems with clean structure, validation, and database integration.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <span class="service-icon">API</span>
+                        <h3>API Development</h3>
+                        <p>Design REST endpoints, test request flows in Postman, and shape APIs that are clear for frontend and client use.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <span class="service-icon">SEC</span>
+                        <h3>Security Testing</h3>
+                        <p>Perform practical VAPT checks, scan surfaces, inspect traffic, and document findings with remediation direction.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container contact-grid">
+                <div class="reveal">
+                    <p class="section-label">Contact</p>
+                    <h2>Let's build something secure, fast, and useful.</h2>
+                    <p class="contact-intro">
+                        Have a backend idea, API workflow, or security testing task? Send a note and I will get back with a clear next step.
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:swathirtcc27@gmail.com">swathirtcc27@gmail.com</a>
+                        <a href="tel:+918072363364">+91 8072363364</a>
+                    </div>
+                    <div class="social-links" aria-label="Social links">
+                        <a href="https://github.com/swathi-2106" aria-label="GitHub profile">GitHub</a>
+                        <a href="https://www.linkedin.com/in/swathi-s-cse/" aria-label="LinkedIn profile">LinkedIn</a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="your.email@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me what you want to build or test" required></textarea>
+
+                    <button class="btn btn-primary" type="submit">Send Message</button>
+                    <p class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Swathi.</p>
+            <a class="footer-link" href="#home">Back to top</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
